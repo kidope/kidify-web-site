@@ -5,4 +5,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Alkatra', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {}
+
+header {
+    /* background-color: rgb(120, 71, 169); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+header .nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header .nav ul li {
+    text-transform: capitalize;
+    float: left;
+
+}
+
+header .nav ul li a {
+    color: black;
 }
