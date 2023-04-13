@@ -24,6 +24,26 @@ header .logo {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    cursor: pointer;
+
+}
+
+header .logo h3 {
+    animation: colors 5s infinite;
+}
+
+@keyframes colors {
+    0% {
+        color: palevioletred;
+    }
+
+    50% {
+        color: skyblue;
+    }
+
+    100% {
+        color: royalblue;
+    }
 }
 
 header .nav ul {
@@ -39,6 +59,16 @@ header .nav ul li {
 
 }
 
+header .nav ul .active {
+    color: rgb(142, 5, 142);
+}
+
+
 header .nav ul li a {
     color: black;
+    font-weight: bold;
+}
+
+header .nav ul li a:hover {
+    color: rgb(142, 5, 142);
 }
