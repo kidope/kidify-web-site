@@ -7,9 +7,20 @@
     font-family: 'Alkatra', cursive;
     list-style: none;
     text-decoration: none;
+    color: gray;
 }
 
-body {}
+body {
+    background-color: #E3E3E3;
+}
+
+.baner {
+    background: url("../image/banner.webp");
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 header {
     /* background-color: rgb(120, 71, 169); */
@@ -66,9 +77,48 @@ header .nav ul .active {
 
 header .nav ul li a {
     color: black;
-    font-weight: bold;
+    background-color: #e3e3e35e;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 header .nav ul li a:hover {
     color: rgb(142, 5, 142);
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+
+}
+
+.container .left {
+    margin-top: -200px;
+}
+
+.container .left h1 {
+    font-size: 50px;
+}
+
+
+.container .left p {
+    transform: rotate(270deg);
+    margin-top: 100px;
+    margin-left: -20px;
+    text-transform: uppercase;
+}
+
+.container .right {
+    width: 300px;
+    text-align: justify;
 }
