@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     color: gray;
+    background-color: #14141B;
 }
 
 /* .baner {
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 header .logo {
@@ -67,19 +69,19 @@ header .nav ul li {
 }
 
 header .nav ul .active {
-    color: rgb(142, 5, 142);
+    color: #15C196;
 }
 
 
 header .nav ul li a {
-    color: black;
+
     padding: 0 20px;
     border: none;
     border-radius: 5px;
 }
 
 header .nav ul li a:hover {
-    color: rgb(142, 5, 142);
+    color: #15C196;
 
 }
 
@@ -104,6 +106,7 @@ main {
 
 .container .left h1 {
     font-size: 50px;
+    color: #15C196;
 }
 
 
@@ -112,12 +115,18 @@ main {
     margin-top: 100px;
     margin-left: -20px;
     text-transform: uppercase;
+
 }
 
 .container .right {
     margin-top: -100px;
     width: 300px;
     text-align: justify;
+
+}
+
+.right .content {
+    color: #5bdfbe;
 }
 
 .image {
@@ -138,7 +147,7 @@ main {
     }
 
     .image {
-        margin-top: 100px;
+        margin-top: 200px;
         margin-left: -750px;
         width: auto;
     }
@@ -146,127 +155,12 @@ main {
     .image img {
         height: 650px;
     }
-
-    .box1 {
-        position: absolute;
-        left: 100px;
-        top: 150px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid blueviolet;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .box2 {
-        position: absolute;
-        left: 400px;
-        top: 500px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid black;
-        transform: rotate(360deg);
-        border-radius: 25%;
-        animation: box linear 5s infinite;
-    }
-
-    .box3 {
-        position: absolute;
-        left: 600px;
-        top: 300px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid blue;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .box4 {
-        position: absolute;
-        left: 50px;
-        top: 600px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid black;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .box5 {
-        position: absolute;
-        left: 850px;
-        top: 600px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid black;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .box6 {
-        position: absolute;
-        left: 450px;
-        top: 800px;
-        height: 10px;
-        width: 10px;
-        background: transparent;
-        border: 2px solid black;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    @keyframes box {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-
-    .heart1 {
-        position: absolute;
-        left: 350px;
-        top: 600px;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .heart2 {
-        position: absolute;
-        left: 450px;
-        top: 200px;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .heart3 {
-        position: absolute;
-        left: 850px;
-        top: 90px;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
-
-    .heart4 {
-        position: absolute;
-        left: 100px;
-        top: 800px;
-        transform: rotate(360deg);
-        animation: box linear 5s infinite;
-    }
 }
 
-.box1 {
+/* .box1 {
     position: absolute;
     left: 100px;
-    top: 150px;
+    top: 550px;
     height: 10px;
     width: 10px;
     background: transparent;
@@ -277,7 +171,7 @@ main {
 
 .box2 {
     position: absolute;
-    left: 400px;
+    left: 1500px;
     top: 500px;
     height: 10px;
     width: 10px;
@@ -290,7 +184,7 @@ main {
 
 .box3 {
     position: absolute;
-    left: 600px;
+    left: 800px;
     top: 300px;
     height: 10px;
     width: 10px;
@@ -303,7 +197,7 @@ main {
 .box4 {
     position: absolute;
     left: 50px;
-    top: 600px;
+    top: 10px;
     height: 10px;
     width: 10px;
     background: transparent;
@@ -315,23 +209,23 @@ main {
 .box5 {
     position: absolute;
     left: 850px;
-    top: 600px;
+    top: 10px;
     height: 10px;
     width: 10px;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid blue;
     transform: rotate(360deg);
     animation: box linear 5s infinite;
 }
 
 .box6 {
     position: absolute;
-    left: 450px;
-    top: 800px;
+    left: 1700px;
+    top: 10px;
     height: 10px;
     width: 10px;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid rebeccapurple;
     transform: rotate(360deg);
     animation: box linear 5s infinite;
 }
@@ -356,8 +250,8 @@ main {
 
 .heart2 {
     position: absolute;
-    left: 450px;
-    top: 200px;
+    left: 350px;
+    top: 300px;
     transform: rotate(360deg);
     animation: box linear 5s infinite;
 }
@@ -365,7 +259,7 @@ main {
 .heart3 {
     position: absolute;
     left: 850px;
-    top: 90px;
+    top: 700px;
     transform: rotate(360deg);
     animation: box linear 5s infinite;
 }
@@ -392,4 +286,58 @@ main {
 
 .heart4 .far {
     color: blue;
+} */
+
+#about {
+    margin-top: 500px;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #15C196;
+
+}
+
+#about .left {
+    display: flex;
+
+    justify-content: space-around;
+    width: 300px;
+    height: auto;
+
+}
+
+.left .left1 h1 {
+    font-size: 50px;
+    margin-left: -50px;
+}
+
+.left .left1 p {
+    margin-top: 50px;
+    margin-left: -40px;
+    transform: rotate(270deg);
+    color: #15C196;
+    font-size: 25px;
+
+}
+
+#about .container2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.container2 .aboutme {
+    margin-left: -300px;
+    word-spacing: 10px;
+}
+
+.aboutme .one {
+    color: #15C196;
+}
+
+.aboutme .two span {
+    color: #15C196;
 }
